@@ -1,0 +1,39 @@
+.DetailFront {
+  padding: 0 2em 0 2em;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.DetailFront .Title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.DetailFront .Title .TitleText {
+  margin: 0 1em 0 1em;
+  text-align: center;
+}
+
+.DetailFront .DetailContent {
+  text-align: justify;
+}
+/*# sourceMappingURL=detail_front.css.map */

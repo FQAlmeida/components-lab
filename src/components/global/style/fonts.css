@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Sifonn Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Sifonn Pro"), url("../fonts/SIFONN_PRO.woff") format("woff");
+}
+
+.App {
+  font-family: Heebo, Overpass, Oxygen, Sifonn Pro,sans-serif;
+}
+/*# sourceMappingURL=fonts.css.map */

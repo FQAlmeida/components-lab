@@ -1,0 +1,53 @@
+.CustomCard {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CustomCard .Content {
+  display: block;
+}
+
+.CustomCard .Overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #8c0202;
+}
+
+.CustomCard .Overlay:hover {
+  opacity: 1;
+}
+
+.CustomCard .Overlay .ContentHover {
+  color: white;
+  height: 100%;
+  font-size: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0 1.5em 0 1.5em;
+}
+/*# sourceMappingURL=card_hover.css.map */

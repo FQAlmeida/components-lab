@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,UAAU,EAAE,GAAG;CAGY;;AAJ/B,AAEI,cAFU,CAEV,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;CAAG",
+    "sources": [
+        "serviceLayout.sass"
+    ],
+    "names": [],
+    "file": "serviceLayout.css"
+}

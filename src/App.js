@@ -1,23 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Diferenciais from "./components/diferenciais/atrium/deferenciais-2.0";
+import "./components/global/style/fonts.css";
+import "./components/global/style/style.css";
+import Servicos from "./components/servicos/atrium/services-2.0";
+import Parceiros from "./components_test/parceiros/v1";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div style={{ padding: "black 2px solid" }}>
+          {/* <Diferenciais /> */}
+          {/*<Servicos/>*/}
+          <Parceiros />
+        </div>
       </header>
     </div>
   );
